@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+	{% load static %}
+    <link rel="stylesheet" href={% static "authorization/css/reg_page.css" %}>
+</head>
+
+<body>
+    <div class="rectangle">
+
+        <h1 class="form_title">Регистрация</h1>
+
+
+        <div class="form_fields">
+            <input type="text" placeholder="имя пользователя" >
+        </div>
+        <div class="form_fields">
+            <input type="password" placeholder="пароль">
+        </div>
+        <div class="form_fields">
+            <input type="password" placeholder="повторите пароль" >
+        </div>
+
+        <button id="reg">Регистрация</button>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization</title>
+	{% load static %}
+    <link rel="stylesheet" href={% static "authorization/css/auth_page.css" %}>
+</head>
+
+<body>
+    <div class="rectangle">
+
+        <h1 class="form_title">Авторизация</h1>
+
+
+        <div class="form_fields">
+            <input type="text" placeholder="имя пользователя" >
+        </div>
+        <div class="form_fields">
+            <input type="password" placeholder="пароль">
+        </div>
+
+
+        <button id="enter">Вход</button>
+        <button id="reg">Регистрация</button>
+    </div>
+</body>
+
+</html>
